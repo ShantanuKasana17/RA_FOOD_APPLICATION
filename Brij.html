@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="my-4 text-center">
+            <h1>Viraaj Ventures</h1>
+            <p class="lead">Welcome to our food menu</p>
+            <p id="table-number" class="lead"></p>
+        </header>
+
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="tea.jpg" class="card-img-top" alt="Tea">
+                    <div class="card-body">
+                        <h5 class="card-title">Indian Tea</h5>
+                        <p class="card-text">Classic Indian tea with ginger and basil, with ginger and basil</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="biscuit.jpg" class="card-img-top" alt="biscuit">
+                    <div class="card-body">
+                        <h5 class="card-title">Biscuit</h5>
+                        <p class="card-text">Coffee with beans patty with cheddar cheese, lettuce, and tomato.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="coffee.jpg" class="card-img-top" alt="coffee">
+                    <div class="card-body">
+                        <h5 class="card-title">coffee</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pakoda.jpg" class="card-img-top" alt="pakoda">
+                    <div class="card-body">
+                        <h5 class="card-title">pakoda</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pasta.jpg" class="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pizza.jpg" class="card-img-top" alt="Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="burger.jpg" class="card-img-top" alt="Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <p class="card-text">Creamy burger carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pakoda.jpg" class="card-img-top" alt="pakoda">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pasta.jpg" class="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="biscuit.jpg" class="card-img-top" alt="Biscuit">
+                    <div class="card-body">
+                        <h5 class="card-title">Biscuit</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pasta.jpg" class ="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pizza.jpg" class="card-img-top" alt="Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pasta.jpg" class="card-img-top" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="burger.jpg" class="card-img-top" alt="burger">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="pakoda.jpg" class="card-img-top" alt="pakoda">
+                    <div class="card-body">
+                        <h5 class="card-title">Spaghetti Carbonara</h5>
+                        <p class="card-text">Creamy carbonara sauce with pancetta and parmesan cheese.</p>
+                        <button class="counter-btn increment" onclick="incrementCounter(this)">+</button>
+                        <span class="count">0</span>
+                        <button class="counter-btn decrement" onclick="decrementCounter(this)">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="fd">
+                <h2>Order List</h2>
+                <textarea id="fd-text" rows="3" placeholder="Your Food Items..."></textarea>
+                
+            </div>
+            <div class="instructions">
+                <h2>Send Instructions</h2>
+                <textarea id="instructions-text" rows="3" placeholder="Enter your instructions here..."></textarea>
+                <button onclick="sendInstructions()">Send</button>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Brij.js"></script>
+</body>
+</html>

@@ -69,6 +69,6 @@ document.addEventListener('DOMContentLoaded', function() {
     if (tableNumber) {
         document.getElementById('table-number').innerText = `Table Number: ${tableNumber}`;
     } else {
-        document.getElementById('table-number').innerText = `Table Number: 4`;
+        document.getElementById('table-number').innerText = `Cabin Name: SIRIUS`;
     }
 });
